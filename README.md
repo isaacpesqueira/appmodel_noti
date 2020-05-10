@@ -1,23 +1,26 @@
-# socketio-chat-example
-Simple example to demostrate socket.io 
+HiChat
+===
+ 
+A chat application built with Node.js and socket.io.
 
-## How to install ?
+View the live demo: http://hichat.herokuapp.com/
 
-Simply clone the repo and then install the dependencies 
+Features
+---
+* send pictures :sunrise:
+* send emojis :smile:
+* keyboard support :musical_keyboard:
+* online users count statistic :ghost:
 
-* Socket.io (npm install socket.io)
+How to run
+---
+1. download the code then extract
+2. run `npm install` from command line window
+3. run `node server` or `iojs server` if you are using [io.js](https://iojs.org/)
+4. finnaly, open your browser and visit `localhost:3000`
 
-## How to run the application ?
+[教程见博客](http://www.cnblogs.com/Wayou/p/hichat_built_with_nodejs_socket.html)
 
-run the node server by typing 
-
-```
-node app.js
-```
-
-
-By default the app runs on port 3000, type in the url 
-http://localhost:3000
+![codeship builing status](https://codeship.com/projects/73bd0d90-9897-0131-516c-56598d7b87e5/status?branch=master)
 
 
-###### Enjoy the chat 

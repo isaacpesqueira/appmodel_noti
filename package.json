@@ -1,18 +1,14 @@
 {
-  "name": "socket-example",
-  "version": "0.0.1",
-  "description": "ERROR: No README.md file found!",
-  "main": "app.js",
-  "scripts": {
-    
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "build":"webpack"
-      
-  },
-  "repository": "",
-  "author": "Michael Heap <m@michaelheap.com>",
-  "dependencies": {
-    "socket.io": ">= 1.0.0"
-  }
+    "name": "hichat",
+    "description": "a realtime chat web application",
+    "version": "0.4.0",
+    "main": "server.js",
+    "dependencies": {
+        "express": "3.4.x",
+        "socket.io": "0.9.x"
+    },
+    "engines": {
+        "node": "0.10.x",
+        "npm": "1.2.x"
+    }
 }
