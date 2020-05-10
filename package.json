@@ -1,20 +1,14 @@
 {
-  "name": "socket.io-chat-example",
-  "version": "1.0.0",
-  "description": "A simple chat client example using socket.io",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/evennode/socket.io-chat"
+  "name": "socket-example",
+  "version": "0.0.1",
+  "description": "ERROR: No README.md file found!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-    "main": "main.js",
-    "scripts":{
-    "start":"node app.js"
-    },
+  "repository": "",
+  "author": "Michael Heap <m@michaelheap.com>",
   "dependencies": {
-    "express": "3.4.8",
-    "socket.io": "^1.1.0",
-    "jquery":"^3.2.1",
-      "socket.io.client": "^1.1.0"
-      
+    "socket.io": ">= 1.0.0"
   }
 }
