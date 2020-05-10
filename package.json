@@ -4,7 +4,7 @@
   "description": "Sala de chat en vivo con usuarios locales",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon servidor.js"
+    "start": "node servidor.js"
   },
   "dependencies": {
     "express": "*",
