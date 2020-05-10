@@ -1,32 +1,27 @@
-# nodejs-socket.io-chat-example
-this is chat example using nodejs with socket.io
 
-# how to run
+# Socket.IO Chat
 
-npm module install:
+A simple chat demo to demonstrate WebSockets support on www.evennode.com Node.js hosting platform.
+
+## How to use
 
 ```
-$ cd /path/to/project
+$ cd socket.io-chat-example
 $ npm install
+$ node app.js
 ```
 
-1. start socket.io server
+And point your browser to `http://localhost:3000`. Optionally specify
+a port by supplying the `PORT` env variable.
 
-> using port 50000
+## Features
 
-```
-$ npm run socket
-```
+- Multiple users can join a chat room by entering a unique username
+on website load.
+- Users can type chat messages to the chat room
+- A notification is sent to all users when a user joins or leaves
+the chatroom
 
-2. start simple web server
-```
-$ npm run web
-```
+## License
 
-> using port 8000
-
-3. open your browser and connect to `localhost:8000`
-
-# blog post
-
-[node.js] 실시간 멀티채팅 구현하기!: <http://blog.puding.kr/156>
+MIT

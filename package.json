@@ -1,32 +1,15 @@
 {
-  "name": "nodejs-socket.io-chat-example",
+  "name": "socket.io-chat-example",
   "version": "1.0.0",
-  "description": "this is chat example using node.js with socket.io",
-  "main": "index.js",
-  "scripts": {
-    "socket": "node index.js",
-    "web": "node webserver.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "A simple chat client example using socket.io",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devjin0617/nodejs-socket.io-chat-example.git"
+    "url": "git://github.com/evennode/socket.io-chat"
   },
-  "keywords": [
-    "chat",
-    "socket.io",
-    "node.js",
-    "talk",
-    "tcp",
-    "websocket"
-  ],
-  "author": "devjin0617",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/devjin0617/nodejs-socket.io-chat-example/issues"
-  },
-  "homepage": "https://github.com/devjin0617/nodejs-socket.io-chat-example#readme",
+    
+  "main": "app.js",
   "dependencies": {
-    "socket.io": "^1.7.2"
+    "express": "3.4.8",
+    "socket.io": "^1.1.0"
   }
 }
