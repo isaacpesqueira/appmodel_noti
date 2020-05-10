@@ -6,8 +6,7 @@
     "type": "git",
     "url": "git://github.com/evennode/socket.io-chat"
   },
-    
-  "main": "main.js",
+    "main": "main.js",
     "scripts":{
     "start":"node app.js"
     },
